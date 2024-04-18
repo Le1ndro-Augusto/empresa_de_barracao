@@ -1,0 +1,11 @@
+.container-politica {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-politica h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 5rem;
+}

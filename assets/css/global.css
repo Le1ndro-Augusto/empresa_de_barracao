@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cor_vermelha {
+    color: rgb(242, 65, 65);
+}
+
+.linha {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    height: 3px;
+    width: 80px;
+    background-color: rgb(242, 65, 65);
+}

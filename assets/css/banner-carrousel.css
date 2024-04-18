@@ -1,0 +1,136 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    position: relative;
+}
+
+.carousel-slide {
+    position: relative;
+    flex: 0 0 100%;
+}
+
+.carousel-slide .desktop-img-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-slide .mobile-img-banner {
+    display: none;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 600px;
+    height: 300px;
+    margin-left: 10rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    /* Adicionado */
+}
+
+.carousel-caption h3 {
+    text-align: left;
+}
+
+.carousel-caption p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+    text-align: left;
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+.carousel-prev {
+    left: 0;
+}
+
+.carousel-next {
+    right: 0;
+}
+
+
+@media screen and (max-width:768px) {
+    .carousel-container {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .carousel {
+        display: flex;
+        transition: transform 0.5s ease;
+        position: relative;
+    }
+
+    .carousel-slide {
+        position: relative;
+        flex: 0 0 100%;
+    }
+
+    .carousel-prev .desktop-img-banner {
+        display: none;
+    }
+
+    .carousel-slide .desktop-img-banner {
+        display: none;
+    }
+    
+    .carousel-slide .mobile-img-banner {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 80%;
+        height: 400px;
+        margin-left: 2rem;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        /* Adicionado */
+    }
+
+    .carousel-caption p {
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 500;
+    
+        text-align: left;
+    }
+    
+}
