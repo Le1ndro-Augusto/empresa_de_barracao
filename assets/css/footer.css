@@ -55,6 +55,10 @@ footer {
     margin-top: 20px;
 }
 
+.fim a {
+    color: #fff;
+}
+
 @media screen and (max-width:768px) {
     .container-footer {
         max-width: 1200px;
