@@ -1,0 +1,13 @@
+.container-servicos {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-servicos .servicos h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color:  #222222;
+    text-align: center;
+    margin-top: 5rem;
+}
